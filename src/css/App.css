@@ -1,0 +1,45 @@
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: #666;
+}
+
+.app main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app main .header {
+  width: 80%;
+}
+
+.app main .page {
+  -ms-flex-preferred-size: 100vh;
+      flex-basis: 100vh;
+  width: 100%;
+}
+
+.app footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=App.css.map */
