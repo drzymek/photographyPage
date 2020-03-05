@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navigation from './Navigation';
-import Slider from './Slider';
+import Header from './Header';
 import Page from './Page';
 import Footer from './Footer';
 
@@ -16,7 +16,7 @@ class App extends Component {
           </nav>
           <main>
             <section className="header">
-              {<Slider />}
+              {<Header />}
             </section>
             <section className="page">
               {<Page />}

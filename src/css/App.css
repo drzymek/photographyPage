@@ -27,6 +27,8 @@
 
 .app main .header {
   width: 80%;
+  height: 85vh;
+  overflow: hidden;
 }
 
 .app main .page {
