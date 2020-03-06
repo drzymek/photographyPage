@@ -13,12 +13,13 @@
 
         .header {
             width: 80%;
-            height: 85vh;
+            // height: 85vh;
             overflow: hidden;
+            text-align: center;
         }
 
         .page {
-            flex-basis: 100vh;
+            // flex-basis: 100vh;
             width: 100%;
         }
     }

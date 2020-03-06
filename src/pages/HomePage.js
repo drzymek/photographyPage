@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/HomePage.css"
 
 import img01 from '../images/main_page_photos/mainPagePhoto_01.jpg';
 import img02 from '../images/main_page_photos/mainPagePhoto_02.jpg';

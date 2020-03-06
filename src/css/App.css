@@ -27,13 +27,11 @@
 
 .app main .header {
   width: 80%;
-  height: 85vh;
   overflow: hidden;
+  text-align: center;
 }
 
 .app main .page {
-  -ms-flex-preferred-size: 100vh;
-      flex-basis: 100vh;
   width: 100%;
 }
 
