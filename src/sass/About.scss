@@ -33,7 +33,6 @@
         }
 
         button {
-            width: 15%;
             margin-top: 5%;
             padding: 10px;
             color: #666;
@@ -43,6 +42,7 @@
             cursor: pointer;
             text-transform: uppercase;
             transition: .5s;
+            outline: none;
         }
 
         button:hover {
