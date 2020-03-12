@@ -1,0 +1,74 @@
+.about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 95vh;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.about .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.about .photo img {
+  height: 50%;
+  width: auto;
+}
+
+.about .welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .welcome h1 {
+  margin-bottom: 10px;
+}
+
+.about .welcome p {
+  text-align: center;
+  padding: 0 10px;
+  line-height: 1.5;
+}
+
+.about .welcome button {
+  width: 15%;
+  margin-top: 5%;
+  padding: 10px;
+  color: #666;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.about .welcome button:hover {
+  color: #fff;
+  background-color: #666;
+}
+/*# sourceMappingURL=About.css.map */
