@@ -56,7 +56,6 @@
 .about .welcome button {
   margin-top: 5%;
   padding: 10px;
-  color: #666;
   background-color: #ddd;
   border: 1px solid #ddd;
   border-radius: 5%;
@@ -65,6 +64,11 @@
   -webkit-transition: .5s;
   transition: .5s;
   outline: none;
+}
+
+.about .welcome button a {
+  color: #666;
+  text-decoration: none;
 }
 
 .about .welcome button:hover {

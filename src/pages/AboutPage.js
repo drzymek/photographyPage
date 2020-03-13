@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/About.css';
 import photoAbout from '../images/About/AboutMe.jpg'
+import { Link } from 'react-router-dom';
 
 const AboutPage = () => {
     return (
@@ -13,7 +14,9 @@ const AboutPage = () => {
                 <p>Mam na imię Kamila, uwielbiam fotografię i zawsze staram sie opowiadać historię moimi zdjęciami..., uwieczniać momenty, które będzie miło wspominać zarówno teraz jak i po latach. Po prostu utrwalam to co najpiękniejsze.</p>
                 <br></br>
                 <p>Zapraszam do obejrzenia mojej galerii.</p>
-                <button>galeria</button>
+                <button>
+                    <Link to="/gallery">galeria</Link>
+                </button>
             </div>
         </div>
     );

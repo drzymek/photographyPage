@@ -35,7 +35,6 @@
         button {
             margin-top: 5%;
             padding: 10px;
-            color: #666;
             background-color: #ddd;
             border: 1px solid #ddd;
             border-radius: 5%;
@@ -43,6 +42,11 @@
             text-transform: uppercase;
             transition: .5s;
             outline: none;
+
+            a {
+                color: #666;
+                text-decoration: none;
+            }
         }
 
         button:hover {
