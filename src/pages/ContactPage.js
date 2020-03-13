@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactPage = () => {
     return (
-        <div>Contact</div>
+        <div className="navScrollToPage">Contact</div>
     );
 }
 

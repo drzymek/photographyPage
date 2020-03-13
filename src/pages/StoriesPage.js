@@ -2,7 +2,7 @@ import React from 'react';
 
 const StoriesPage = () => {
     return (
-        <div>Stories</div>
+        <div className="navScrollToPage">Stories</div>
     );
 }
 

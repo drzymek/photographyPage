@@ -4,7 +4,7 @@ import photoAbout from '../images/About/AboutMe.jpg'
 
 const AboutPage = () => {
     return (
-        <div className="about">
+        <div className="about navScrollToPage">
             <div className="photo">
                 <img src={photoAbout} alt="little girl in the grass" />
             </div>

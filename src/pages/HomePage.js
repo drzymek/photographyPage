@@ -67,9 +67,9 @@ const HomePage = () => {
         <PhotosMainPage key={photo.id} {...photo} />
     ))
     return (
-        <div className="homePage">
+        <div className="homePage navScrollToPage">
             {photos}
-        </div>
+        </div >
     );
 }
 

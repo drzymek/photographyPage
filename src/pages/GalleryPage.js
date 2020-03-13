@@ -2,7 +2,7 @@ import React from 'react';
 
 const GalleryPage = () => {
     return (
-        <div>Gallery</div>
+        <div className="navScrollToPage">Gallery</div>
     );
 }
 

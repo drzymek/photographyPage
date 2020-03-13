@@ -11,11 +11,21 @@ const menuList = [
     { name: "kontakt", path: "/contact" }
 ]
 
+
+const scrollToPage = () => {
+    const pageFromTop = document.querySelector('.navScrollToPage').offsetTop;
+    window.scroll({
+        top: pageFromTop,
+        behavior: 'smooth'
+    })
+}
+
+
 const Navigation = () => {
 
     const menu = menuList.map(item => (
         <li key={item.name}>
-            <NavLink to={item.path}>{item.name}</NavLink>
+            <NavLink to={item.path} className={item.className} onClick={scrollToPage} >{item.name}</NavLink>
         </li>
     ))
     return (
