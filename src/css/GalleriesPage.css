@@ -1,5 +1,15 @@
-.galleries {
-  margin-top: 5%;
+.galleriesPage {
+  text-align: center;
+}
+
+.galleriesPage h1 {
+  margin-top: 1%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.galleriesPage .galleries {
+  margin-top: 1%;
   padding: 0 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,7 +23,7 @@
           align-items: center;
 }
 
-.galleries a {
+.galleriesPage .galleries a {
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
@@ -21,15 +31,16 @@
   transition: .3s;
 }
 
-.galleries a h3 {
+.galleriesPage .galleries a h5 {
   text-align: center;
 }
 
-.galleries a img {
+.galleriesPage .galleries a img {
+  padding: 1%;
   width: 100%;
 }
 
-.galleries a:hover {
+.galleriesPage .galleries a:hover {
   opacity: .7;
 }
 /*# sourceMappingURL=GalleriesPage.css.map */

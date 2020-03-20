@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const PhotosHeader = (props) => {
     return (
-        <Link to="/galleries">
+        <Link to="/galerie">
             <img src={props.src} alt={props.alt} />
         </Link>
     );

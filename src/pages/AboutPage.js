@@ -15,7 +15,7 @@ const AboutPage = () => {
                 <br></br>
                 <p>Zapraszam do obejrzenia mojej galerii.</p>
                 <button>
-                    <Link to="/gallery">galeria</Link>
+                    <Link to="/galerie">galeria</Link>
                 </button>
             </div>
         </div>

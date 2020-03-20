@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const PhotosGalleriesPage = (props) => {
     return (
-        <Link to={`gallery/${props.name}`}>
-            <h3>{props.name}</h3>
+        <Link to={`galeria/${props.name}`}>
+            <h5>{props.name}</h5>
             <img src={props.src} alt={props.alt} />
         </Link>
     );
