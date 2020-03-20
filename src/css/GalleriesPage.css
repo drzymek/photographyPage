@@ -17,6 +17,8 @@
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .galleries a h3 {
@@ -26,4 +28,8 @@
 .galleries a img {
   width: 100%;
 }
-/*# sourceMappingURL=GalleryPage.css.map */
+
+.galleries a:hover {
+  opacity: .7;
+}
+/*# sourceMappingURL=GalleriesPage.css.map */

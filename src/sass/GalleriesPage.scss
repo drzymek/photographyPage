@@ -10,6 +10,7 @@
         text-decoration: none;
         text-transform: uppercase;
         color: rgba(0, 0, 0, 0.5);
+        transition: .3s;
 
         h3 {
             text-align: center;
@@ -19,6 +20,11 @@
         img {
             width: 100%;
         }
+    }
+
+
+    a:hover {
+        opacity: .7;
     }
 
 
