@@ -1,0 +1,26 @@
+.galleries {
+    margin-top: 5%;
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.5);
+
+        h3 {
+            text-align: center;
+
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+
+}

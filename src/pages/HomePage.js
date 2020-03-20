@@ -11,7 +11,7 @@ import img07 from '../images/main_page_photos/mainPagePhoto_07.jpg';
 import img08 from '../images/main_page_photos/mainPagePhoto_08.jpg';
 import img09 from '../images/main_page_photos/mainPagePhoto_09.jpg';
 
-import PhotosMainPage from '../components/PhotosMainPage';
+import PhotosHeader from '../components/PhotosHeader';
 
 const mainPagePhotos = [
     {
@@ -64,7 +64,7 @@ const mainPagePhotos = [
 
 const HomePage = () => {
     const photos = mainPagePhotos.map((photo) => (
-        <PhotosMainPage key={photo.id} {...photo} />
+        <PhotosHeader key={photo.id} {...photo} />
     ))
     return (
         <div className="homePage navScrollToPage">

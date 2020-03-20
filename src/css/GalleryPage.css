@@ -1,0 +1,29 @@
+.galleries {
+  margin-top: 5%;
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.galleries a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.galleries a h3 {
+  text-align: center;
+}
+
+.galleries a img {
+  width: 100%;
+}
+/*# sourceMappingURL=GalleryPage.css.map */

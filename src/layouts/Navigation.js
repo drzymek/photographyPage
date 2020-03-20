@@ -6,7 +6,7 @@ import imgLogo from "../images/logo.jpg"
 const menuList = [
     { name: "strona główna", path: "/", exact: true },
     { name: "o mnie", path: "/about" },
-    { name: "galeria", path: "/gallery" },
+    { name: "galeria", path: "/galleries" },
     { name: "historie", path: "/stories" },
     { name: "kontakt", path: "/contact" }
 ]
