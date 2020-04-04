@@ -31,4 +31,41 @@
         text-align: center;
         text-transform: uppercase;
     }
+
+    .scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 5%;
+        right: 1%;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        border: 3px solid #666;
+        background-color: #F8F8F8;
+        border-radius: 50%;
+        outline: none;
+        transition: .5s;
+
+        svg {
+            font-size: 25px;
+            color: #666;
+        }
+    }
+
+    button.on {
+        display: block;
+    }
+
+    .scrollToTopBtn:hover {
+        background-color: #000;
+        border-color: #fff;
+
+        svg {
+            color: #fff;
+        }
+    }
+
+
+
+
 }

@@ -44,4 +44,38 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.app .scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #666;
+  background-color: #F8F8F8;
+  border-radius: 50%;
+  outline: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.app .scrollToTopBtn svg {
+  font-size: 25px;
+  color: #666;
+}
+
+.app button.on {
+  display: block;
+}
+
+.app .scrollToTopBtn:hover {
+  background-color: #000;
+  border-color: #fff;
+}
+
+.app .scrollToTopBtn:hover svg {
+  color: #fff;
+}
 /*# sourceMappingURL=App.css.map */

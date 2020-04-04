@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import Header from './Header';
 import Page from './Page';
 import Footer from './Footer';
+import ScrollToTop from '../components/ScrollToTop'
 
 class App extends Component {
   render() {
@@ -23,6 +24,9 @@ class App extends Component {
             </section>
           </main>
           <footer>{<Footer />}</footer>
+          <span>
+            {<ScrollToTop />}
+          </span>
         </div>
       </Router>
 
