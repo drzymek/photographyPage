@@ -10,11 +10,13 @@ import '../css/GalleryPage.css';
 const GalleryPage = ({ match }) => {
 
     return (
-        <>
+        <div className="navScrollToPage">
             <Gallery id={match.params.id} />
-            <Link to="/galerie">Powrót</Link>
+            <Link to="/galerie">
+                <button>Powrót</button>
+            </Link>
 
-        </>
+        </div>
     );
 }
 
