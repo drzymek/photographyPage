@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,MAAM;CAM1B;;AATD,AAKI,cALU,CAKV,YAAY,CAAC;EACT,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "../sass/SingleGallery.scss"
+    ],
+    "names": [],
+    "file": "SingleGallery.css"
+}
