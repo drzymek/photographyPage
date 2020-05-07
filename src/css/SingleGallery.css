@@ -1,3 +1,7 @@
+h2 {
+  text-transform: uppercase;
+}
+
 .singleGallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7,10 +11,18 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
 }
 
 .singleGallery .singlePhoto {
   width: 20%;
   margin: 1% 2%;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
+}
+
+.singleGallery .singlePhoto:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 /*# sourceMappingURL=SingleGallery.css.map */
