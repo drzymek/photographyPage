@@ -1,4 +1,5 @@
 import React from 'react';
+import { SRLWrapper } from 'simple-react-lightbox';
 
 import img01 from '../images/gallery_photos/families/01_family.jpg';
 import img02 from '../images/gallery_photos/families/02_family.jpg';
@@ -44,8 +45,8 @@ const gallery = [
         id: 5,
         src: img05,
         alt: ""
-    },
-    {
+    }
+    , {
         id: 6,
         src: img06,
         alt: ""
@@ -109,24 +110,24 @@ const gallery = [
         id: 18,
         src: img18,
         alt: ""
-    },
+    }
 ]
 
-
-
 const FamiliesGallery = () => {
+
     const list = gallery.map(photo => (
         <div className="singlePhoto">
-            <a href="">
-                <img src={photo.src} alt={photo.alt} />
-            </a>
+            <img src={photo.src} alt={photo.alt} key={photo.id} />
         </div>
     ))
+
     return (
-        <div className="singleGallery">
-            {list}
-        </div>
-    );
+        <SRLWrapper>
+            <div className="singleGallery">
+                {list}
+            </div>
+        </SRLWrapper >
+    )
 }
 
 export default FamiliesGallery;

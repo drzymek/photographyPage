@@ -6,6 +6,7 @@ import img02 from '../images/gallery_photos/babies/02_baby.jpg';
 import img03 from '../images/gallery_photos/babies/03_baby.jpg';
 import img04 from '../images/gallery_photos/babies/04_baby.jpg';
 import img05 from '../images/gallery_photos/babies/05_baby.jpg';
+import { SRLWrapper } from 'simple-react-lightbox';
 
 const gallery = [
     {
@@ -37,16 +38,16 @@ const gallery = [
 const NewbornGallery = () => {
     const list = gallery.map(photo => (
         <div className="singlePhoto">
-            <a href="">
-                <img src={photo.src} alt={photo.alt} />
-            </a>
+            <img src={photo.src} alt={photo.alt} key={photo.id} />
         </div>
     ))
 
     return (
-        <div className="singleGallery">
-            {list}
-        </div>
+        <SRLWrapper>
+            <div className="singleGallery">
+                {list}
+            </div>
+        </SRLWrapper>
     )
 }
 

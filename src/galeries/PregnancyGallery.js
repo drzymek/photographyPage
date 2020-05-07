@@ -4,6 +4,7 @@ import img01 from '../images/gallery_photos/pregnancy/01_pregnancy.jpg'
 import img02 from '../images/gallery_photos/pregnancy/02_pregnancy.jpg'
 import img03 from '../images/gallery_photos/pregnancy/03_pregnancy.jpg'
 import img04 from '../images/gallery_photos/pregnancy/04_pregnancy.jpg'
+import { SRLWrapper } from 'simple-react-lightbox';
 
 const gallery = [
     {
@@ -31,15 +32,15 @@ const gallery = [
 const PregnancyGallery = () => {
     const list = gallery.map(photo => (
         <div className="singlePhoto">
-            <a href="">
-                <img src={photo.src} alt={photo.alt} />
-            </a>
+            <img src={photo.src} alt={photo.alt} />
         </div>
     ))
     return (
-        <div className="singleGallery">
-            {list}
-        </div>
+        <SRLWrapper>
+            <div className="singleGallery">
+                {list}
+            </div>
+        </SRLWrapper>
     );
 }
 

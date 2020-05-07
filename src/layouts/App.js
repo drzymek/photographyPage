@@ -7,28 +7,32 @@ import Page from './Page';
 import Footer from './Footer';
 import ScrollToTop from '../components/ScrollToTop'
 
+import SimpleReactLightbox from 'simple-react-lightbox'
+
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="app">
-          <nav>
-            {<Navigation />}
-          </nav>
-          <main>
-            <section className="header">
-              {<Header />}
-            </section>
-            <section className="page">
-              {<Page />}
-            </section>
-          </main>
-          <footer>{<Footer />}</footer>
-          <span>
-            {<ScrollToTop />}
-          </span>
-        </div>
-      </Router>
+      <SimpleReactLightbox>
+        <Router>
+          <div className="app">
+            <nav>
+              {<Navigation />}
+            </nav>
+            <main>
+              <section className="header">
+                {<Header />}
+              </section>
+              <section className="page">
+                {<Page />}
+              </section>
+            </main>
+            <footer>{<Footer />}</footer>
+            <span>
+              {<ScrollToTop />}
+            </span>
+          </div>
+        </Router>
+      </SimpleReactLightbox>
 
     );
   }
