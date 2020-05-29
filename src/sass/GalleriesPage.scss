@@ -38,3 +38,23 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .galleriesPage {
+        h1 {
+            margin-top: 5%;
+        }
+
+        .galleries {
+            margin-top: 10%;
+
+            a {
+                margin-bottom: 20%;
+
+                h5 {
+                    padding-bottom: 3%;
+                }
+            }
+        }
+    }
+}

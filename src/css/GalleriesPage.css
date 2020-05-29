@@ -43,4 +43,19 @@
 .galleriesPage .galleries a:hover {
   opacity: .7;
 }
+
+@media only screen and (max-width: 768px) {
+  .galleriesPage h1 {
+    margin-top: 5%;
+  }
+  .galleriesPage .galleries {
+    margin-top: 10%;
+  }
+  .galleriesPage .galleries a {
+    margin-bottom: 20%;
+  }
+  .galleriesPage .galleries a h5 {
+    padding-bottom: 3%;
+  }
+}
 /*# sourceMappingURL=GalleriesPage.css.map */
