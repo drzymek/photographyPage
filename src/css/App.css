@@ -78,4 +78,14 @@
 .app .scrollToTopBtn:hover svg {
   color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+  .app {
+    width: 100%;
+  }
+  .app main .header {
+    margin-top: 15%;
+    height: auto;
+  }
+}
 /*# sourceMappingURL=App.css.map */
