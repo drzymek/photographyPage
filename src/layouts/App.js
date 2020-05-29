@@ -8,6 +8,7 @@ import Footer from './Footer';
 import ScrollToTop from '../components/ScrollToTop'
 
 import SimpleReactLightbox from 'simple-react-lightbox'
+import BurgerMenu from './BurgerMenu';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <div className="app">
             <nav>
               {<Navigation />}
+              {<BurgerMenu />}
             </nav>
             <main>
               <section className="header">

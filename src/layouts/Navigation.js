@@ -29,16 +29,27 @@ const Navigation = () => {
         </li>
     ))
     return (
-        <div className="navigation">
-            <span className="logo">
-                <img src={imgLogo} alt="logo circle of life" />
-            </span>
-            <nav>
+        <>
+            <div className="navigation">
+                <span className="logo">
+                    <img src={imgLogo} alt="logo circle of life" />
+                </span>
+                <nav>
+                    <ul>
+                        {menu}
+                    </ul>
+                </nav>
+            </div>
+            {/* <div className="mobile burger">
+                <i class="fas fa-bars" ></i>
+                <i class="fas fa-times off" ></i>
+            </div>
+            <nav className="mobileNav">
                 <ul>
                     {menu}
                 </ul>
-            </nav>
-        </div>
+            </nav> */}
+        </>
     );
 }
 
