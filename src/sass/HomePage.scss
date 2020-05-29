@@ -8,3 +8,14 @@
         padding: 0 5px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+
+    .homePage {
+        img {
+            width: 45%;
+            height: auto;
+            margin-bottom: 5%;
+        }
+    }
+}
