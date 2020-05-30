@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <SimpleReactLightbox>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="app">
             <nav>
               {<Navigation />}
