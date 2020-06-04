@@ -1,7 +1,7 @@
 .app {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     min-height: 100vh;
     margin: 0 auto;
     color: #666;
@@ -62,19 +62,6 @@
 
         svg {
             color: #fff;
-        }
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .app {
-        width: 100%;
-
-        main {
-            .header {
-                margin-top: 11%;
-                height: auto;
-            }
         }
     }
 }
