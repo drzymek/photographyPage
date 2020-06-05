@@ -1,14 +1,21 @@
-img {
-    width: 100%;
-    height: auto;
+@import 'Breakpoints';
+
+.header {
+    width: 90%;
+    height: 85vh;
+    overflow: hidden;
+    text-align: center;
+
+    img {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@include for-phone-only {
     .header {
-        img {
-            width: 95%;
-        }
-
-        margin-bottom: 5%;
+        height: auto;
+        margin-top: 10%;
     }
 }
