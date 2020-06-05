@@ -1,12 +1,14 @@
 import React from 'react';
 import '../css/About.css';
-import photoAbout from '../images/About/AboutMe.jpg'
+import photoAbout from '../images/About/AboutMe.jpg';
+import ownerPhoto from '../images/About/AboutMeKamila&Laura.jpg';
 import { Link } from 'react-router-dom';
 
 const AboutPage = () => {
     return (
         <div className="about navScrollToPage">
             <div className="photo">
+                <img src={ownerPhoto} alt="page owner Kamila" />
                 <img src={photoAbout} alt="little girl in the grass" />
             </div>
             <div className="welcome">
