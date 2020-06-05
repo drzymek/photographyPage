@@ -68,7 +68,7 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 991px) {
+@media (min-width: 600px) and (max-width: 767px) {
   .navigation .logo {
     margin-left: 1%;
   }
