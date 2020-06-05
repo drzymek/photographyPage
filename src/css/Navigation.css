@@ -1,7 +1,3 @@
-.mobile {
-  display: none;
-}
-
 .navigation {
   position: relative;
   left: 50%;
@@ -66,9 +62,23 @@
   color: black;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 599px) {
   .navigation {
     display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+  .navigation .logo {
+    margin-left: 1%;
+  }
+  .navigation .logo img {
+    width: 80%;
+  }
+  .navigation nav {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
   }
 }
 /*# sourceMappingURL=Navigation.css.map */

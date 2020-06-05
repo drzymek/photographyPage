@@ -1,6 +1,5 @@
-.mobile {
-    display: none;
-}
+@import 'Breakpoints';
+
 
 .navigation {
     position: relative;
@@ -54,9 +53,25 @@
     }
 }
 
-
-@media only screen and (max-width: 768px) {
+@include for-phone-only {
     .navigation {
         display: none;
+    }
+}
+
+@include for-tablet-portrait-up {
+    .navigation {
+
+        .logo {
+            margin-left: 1%;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        nav {
+            flex-grow: 0;
+        }
     }
 }
