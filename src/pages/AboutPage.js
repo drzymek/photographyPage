@@ -7,9 +7,13 @@ import { Link } from 'react-router-dom';
 const AboutPage = () => {
     return (
         <div className="about navScrollToPage">
-            <div className="photo">
-                <img src={ownerPhoto} alt="page owner Kamila" />
-                <img src={photoAbout} alt="little girl in the grass" />
+            <div className="photos">
+                <div className="ownerPhoto">
+                    <img src={ownerPhoto} alt="page owner Kamila" />
+                </div>
+                <div className="rightPhoto">
+                    <img src={photoAbout} alt="little girl in the grass" />
+                </div>
             </div>
             <div className="welcome">
                 <h1>Hej! Miło mi Cię widzieć!</h1>
