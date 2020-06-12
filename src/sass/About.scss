@@ -1,26 +1,43 @@
-.about {
-    width: 100%;
-    display: flex;
-    min-height: 95vh;
-    align-items: stretch;
+@import 'Breakpoints';
 
-    .photo {
+.about {
+    min-height: 100vh;
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+
+    .photos {
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 100%;
+        justify-content: space-around;
 
-        img {
-            height: 50%;
-            width: auto;
+        div {
+            width: 40%;
+            background-color: rgba(221, 221, 221, 0.3);
         }
+
+        .ownerPhoto {
+            img {
+                width: 70%;
+            }
+        }
+
+        .rightPhoto {
+            img {
+                width: 80%;
+            }
+        }
+
+
     }
+
 
     .welcome {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 3%;
 
         h1 {
             margin-bottom: 10px;
@@ -62,12 +79,12 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .about {
         flex-direction: column;
+        min-height: 50vh;
 
-        .photo {
-            margin-top: 5%;
+        .photos {
 
             img {
                 margin-top: 10%;
@@ -85,3 +102,5 @@
         }
     }
 }
+
+@include for-tablet-landscape-up {}
