@@ -22,15 +22,18 @@
 
 .about .photos div {
   width: 40%;
-  background-color: rgba(221, 221, 221, 0.3);
 }
 
 .about .photos .ownerPhoto img {
   width: 70%;
+  -webkit-box-shadow: -20px -10px 35px #888888;
+          box-shadow: -20px -10px 35px #888888;
 }
 
 .about .photos .rightPhoto img {
   width: 80%;
+  -webkit-box-shadow: -20px 10px 35px #888888;
+          box-shadow: -20px 10px 35px #888888;
 }
 
 .about .welcome {
