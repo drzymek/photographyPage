@@ -1,10 +1,15 @@
+@import 'Breakpoints';
+
 .storiesPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 95vh;
-    text-align: center;
+    width: 100%;
 
     h1 {
-        padding-top: 3%;
-        margin-bottom: 3%;
+        margin-bottom: 8%;
         text-transform: uppercase;
 
         .company {
@@ -15,7 +20,42 @@
     }
 
     .videos {
+        width: 90%;
+        height: 50vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+
+
+        .video {
+            width: 100%;
+            height: 100%;
+
+            h3 {
+                margin-bottom: 2%;
+                text-transform: uppercase;
+            }
+
+            iframe {
+                width: 90%;
+                height: 90%;
+            }
+        }
+    }
+}
+
+@include for-phone-only {
+    .storiesPage {
+
+        .videos {
+            height: 100%;
+            width: auto;
+            flex-direction: column;
+
+            .video {
+                margin-bottom: 10%;
+                padding-bottom: 2%;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+            }
+        }
     }
 }
