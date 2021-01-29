@@ -25,7 +25,8 @@
 }
 
 .navigation .logo img {
-  width: 100%;
+  width: auto;
+  height: 100%;
 }
 
 .navigation nav {
@@ -75,9 +76,6 @@
 @media (min-width: 600px) and (max-width: 767px) {
   .navigation .logo {
     margin-left: 1%;
-  }
-  .navigation .logo img {
-    width: 80%;
   }
   .navigation nav {
     -webkit-box-flex: 0;
