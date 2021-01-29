@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "../css/Navigation.css";
-import imgLogo from "../images/newLogo.jpg"
+import imgLogo from "../images/newLogo.png";
 
 const menuList = [
     { name: "strona główna", path: "/", exact: true },
