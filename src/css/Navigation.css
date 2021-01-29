@@ -7,9 +7,8 @@
   display: -ms-flexbox;
   display: flex;
   height: 15vh;
-  width: 90vw;
-  margin-bottom: 5px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+  width: 89vw;
+  border-bottom: 0.3px solid rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
@@ -20,13 +19,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 5vw;
+  margin-left: 7vw;
   overflow: hidden;
 }
 
 .navigation .logo img {
   width: auto;
-  height: 120%;
+  height: 180%;
 }
 
 .navigation nav {
@@ -43,16 +42,20 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   list-style-type: none;
 }
 
 .navigation nav ul li {
-  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 8px;
   text-transform: uppercase;
-  margin: 0 2vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 vw;
   padding: 10px;
 }
 
