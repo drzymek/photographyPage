@@ -20,4 +20,4 @@ const StoriesPage = () => {
     );
 }
 
-export default StoriesPage;
+// export default StoriesPage;

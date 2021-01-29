@@ -4,11 +4,11 @@ import "../css/Navigation.css";
 import imgLogo from "../images/newLogo.png";
 
 const menuList = [
-    { name: "strona główna", path: "/", exact: true },
-    { name: "o mnie", path: "/o_mnie" },
-    { name: "galeria", path: "/galerie" },
-    { name: "historie", path: "/historie" },
-    { name: "kontakt", path: "/kontakt" }
+    { name: "home page", path: "/", exact: true },
+    { name: "about", path: "/about" },
+    { name: "gallery", path: "/gallery" },
+    // { name: "historie", path: "/historie" },
+    { name: "contact", path: "/contact" }
 ]
 
 
