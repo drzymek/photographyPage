@@ -5,10 +5,10 @@ import imgLogo from "../images/newLogo.png";
 
 const menuList = [
     { name: "home page", path: "/", exact: true },
-    { name: "about", path: "/about" },
-    { name: "gallery", path: "/gallery" },
+    { name: "about", path: "/o_mnie" },
+    { name: "gallery", path: "/galerie" },
     // { name: "historie", path: "/historie" },
-    { name: "contact", path: "/contact" }
+    { name: "contact", path: "/kontakt" }
 ]
 
 
