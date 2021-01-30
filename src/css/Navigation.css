@@ -19,6 +19,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 40%;
   margin-left: 7vw;
   overflow: hidden;
 }
@@ -32,6 +33,7 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 60%;
 }
 
 .navigation nav ul {
@@ -50,12 +52,11 @@
 
 .navigation nav ul li {
   font-family: 'Raleway', sans-serif;
-  font-size: 8px;
+  font-size: 12px;
   text-transform: uppercase;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 vw;
   padding: 10px;
 }
 
