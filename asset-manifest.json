@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/photographyPage/static/css/main.6f32205b.chunk.css",
+    "main.css": "/photographyPage/static/css/main.896e737f.chunk.css",
     "main.js": "/photographyPage/static/js/main.ce266c7e.chunk.js",
     "main.js.map": "/photographyPage/static/js/main.ce266c7e.chunk.js.map",
     "runtime-main.js": "/photographyPage/static/js/runtime-main.98b3ec4f.js",
@@ -8,9 +8,9 @@
     "static/js/2.cd54bf59.chunk.js": "/photographyPage/static/js/2.cd54bf59.chunk.js",
     "static/js/2.cd54bf59.chunk.js.map": "/photographyPage/static/js/2.cd54bf59.chunk.js.map",
     "index.html": "/photographyPage/index.html",
-    "precache-manifest.9e4b24742e4e0318a793b096a25b7816.js": "/photographyPage/precache-manifest.9e4b24742e4e0318a793b096a25b7816.js",
+    "precache-manifest.564ab2c558131779b303c0a6df5788f3.js": "/photographyPage/precache-manifest.564ab2c558131779b303c0a6df5788f3.js",
     "service-worker.js": "/photographyPage/service-worker.js",
-    "static/css/main.6f32205b.chunk.css.map": "/photographyPage/static/css/main.6f32205b.chunk.css.map",
+    "static/css/main.896e737f.chunk.css.map": "/photographyPage/static/css/main.896e737f.chunk.css.map",
     "static/js/2.cd54bf59.chunk.js.LICENSE.txt": "/photographyPage/static/js/2.cd54bf59.chunk.js.LICENSE.txt",
     "static/media/01_family.jpg": "/photographyPage/static/media/01_family.ef7c08ad.jpg",
     "static/media/01_kids.jpg": "/photographyPage/static/media/01_kids.c716faf0.jpg",
@@ -67,7 +67,7 @@
   "entrypoints": [
     "static/js/runtime-main.98b3ec4f.js",
     "static/js/2.cd54bf59.chunk.js",
-    "static/css/main.6f32205b.chunk.css",
+    "static/css/main.896e737f.chunk.css",
     "static/js/main.ce266c7e.chunk.js"
   ]
 }
