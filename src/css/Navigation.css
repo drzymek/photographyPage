@@ -62,13 +62,9 @@
 
 .navigation nav ul li a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: black;
   -webkit-transition: .3s;
   transition: .3s;
-}
-
-.navigation nav ul li:hover a {
-  color: black;
 }
 
 @media (max-width: 599px) {
